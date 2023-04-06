@@ -10,14 +10,14 @@ import java.util.Objects;
 
 public class WebDriverCash {
 
-    private static final Map<String, WebDriver> drivers =new HashMap<>();
+    private static final Map<String, WebDriver> drivers = new HashMap<>();
 
     private WebDriverCash() {
     }
 
     public static WebDriver getDriver(String browserName) {
         if (Objects.nonNull(drivers.get(browserName))
-            && Objects.nonNull(((RemoteWebDriver)drivers.get(browserName)).getSessionId())) {
+                && Objects.nonNull(((RemoteWebDriver) drivers.get(browserName)).getSessionId())) {
             return drivers.get(browserName);
         } else {
             drivers.put(browserName, WebDriverFactory.getDriver(browserName));

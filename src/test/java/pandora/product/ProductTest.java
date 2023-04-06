@@ -1,6 +1,6 @@
-package domria.product;
+package pandora.product;
 
-import domria.BaseTest;
+import pandora.BaseTest;
 import org.junit.jupiter.api.*;
 import org.project.domria.flow.CartFlow;
 import org.project.domria.flow.ProductListFlow;
@@ -11,7 +11,7 @@ public class ProductTest extends BaseTest {
 
     private final CartFlow cartFlow = new CartFlow(driver);
 
-    private final ProductListFlow productListFlow =new ProductListFlow(driver);
+    private final ProductListFlow productListFlow = new ProductListFlow(driver);
 
     @BeforeEach
     public void navigateToCart() {
@@ -22,7 +22,7 @@ public class ProductTest extends BaseTest {
 
     @Test
     @DisplayName("Add Product to Cart")
-    public void testAddProductToCart(){
+    public void testAddProductToCart() {
         productListFlow.clickToProduct();
         productListFlow.clickSize();
         productListFlow.clickOrderButton();

@@ -1,6 +1,6 @@
-package domria.pagelogontest;
+package pandora.pagelogontest;
 
-import domria.BaseTest;
+import pandora.BaseTest;
 import org.project.domria.flow.LoginFlow;
 import org.junit.jupiter.api.*;
 

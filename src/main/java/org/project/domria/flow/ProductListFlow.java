@@ -14,15 +14,16 @@ public class ProductListFlow {
     public Product getProduct() {
         return product;
     }
-    public void clickToProduct(){
+
+    public void clickToProduct() {
         product.getProductName().click();
     }
 
-    public void clickSize(){
+    public void clickSize() {
         product.getSize().click();
     }
 
-    public void clickOrderButton(){
+    public void clickOrderButton() {
         product.getOrderButton().click();
     }
 }

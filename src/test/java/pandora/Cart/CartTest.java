@@ -1,9 +1,8 @@
-package domria.Cart;
+package pandora.Cart;
 
-import domria.BaseTest;
+import pandora.BaseTest;
 import org.junit.jupiter.api.*;
 import org.project.domria.flow.CartFlow;
-import org.project.domria.flow.ProductListFlow;
 
 import static org.project.domria.utils.PopHelpers.closeCountryPopUpButton;
 
@@ -26,7 +25,7 @@ public class CartTest extends BaseTest {
         Assertions.assertEquals(expected, cartFlow.getHeaderText());
     }
 
-      @AfterEach
+    @AfterEach
     public void clean() {
         driver.manage().deleteAllCookies();
     }

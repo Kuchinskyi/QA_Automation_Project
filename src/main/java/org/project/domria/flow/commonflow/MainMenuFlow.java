@@ -11,15 +11,15 @@ public class MainMenuFlow {
         this.mainMenu = new MainMenu(driver);
     }
 
-    public MainMenu getMainMenu(){
+    public MainMenu getMainMenu() {
         return mainMenu;
     }
 
-    public void navigateToAccount(){
+    public void navigateToAccount() {
         mainMenu.getMyAccount().click();
     }
 
-    public void navigateToCart(){
+    public void navigateToCart() {
         mainMenu.getCartButton().click();
     }
 }

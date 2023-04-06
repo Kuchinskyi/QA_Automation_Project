@@ -1,6 +1,6 @@
-package domria.navigator;
+package pandora.navigator;
 
-import domria.BaseTest;
+import pandora.BaseTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

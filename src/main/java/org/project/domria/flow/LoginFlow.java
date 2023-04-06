@@ -46,7 +46,7 @@ public class LoginFlow extends BaseFlow {
         return loginPage.getLoginError().isDisplayed();
     }
 
-    public void login(String email, String password){
+    public void login(String email, String password) {
         setEmailAddressField(email);
         setPasswordField(password);
         clickSubmitButton();

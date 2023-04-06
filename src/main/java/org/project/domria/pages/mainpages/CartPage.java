@@ -20,6 +20,6 @@ public class CartPage extends AbstractPage {
     }
 
     public WebElement getProductHeader() {
-        return driver.findElement(PRODUCT_NAME );
+        return driver.findElement(PRODUCT_NAME);
     }
 }

@@ -1,4 +1,4 @@
-package domria;
+package pandora;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -10,7 +10,7 @@ import java.time.Duration;
 public class BaseTest {
 
     protected static WebDriver driver;
-    private static final int WAIT = 5000;
+    private static final int WAIT = 7000;
 
     @BeforeAll
     public static void init() {
