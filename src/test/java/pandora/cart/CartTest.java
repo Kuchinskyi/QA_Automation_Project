@@ -1,4 +1,4 @@
-package pandora.Cart;
+package pandora.cart;
 
 import pandora.BaseTest;
 import org.junit.jupiter.api.*;
